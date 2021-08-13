@@ -13,7 +13,7 @@ namespace MonolithicSampleRestApi.Controllers.V1
         [HttpGet]
         public async Task<ActionResult<string>> GetGitHubAppPath()
         {
-            return Ok("https://www.google.com.br");
+            return Ok("https://github.com/brunocanmaster/MonolithicSampleRestApi");
         }
     }
 }
