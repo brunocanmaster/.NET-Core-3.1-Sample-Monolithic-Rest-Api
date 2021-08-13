@@ -1,0 +1,12 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MonolithicSampleRestApi/bin/Debug/netcoreapp3.1
+/MonolithicSampleRestApi/obj
+/MonolithicSampleRestApi.Domain/bin/Debug/netcoreapp3.1
+/MonolithicSampleRestApi.Infra/obj
+/MonolithicSampleRestApi.Sdk/bin/Debug/netcoreapp3.1
+/MonolithicSampleRestApi.Sdk/obj
+/MonolithicSampleRestApi.Service/obj
