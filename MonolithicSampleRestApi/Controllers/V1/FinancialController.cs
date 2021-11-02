@@ -38,6 +38,9 @@ namespace MonolithicSampleRestApi.Controllers.V1
                 double r = dInitialValue * dInterestRate;
                 decimal finalValue = decimal.Round(r.ToDecimal(), 2, MidpointRounding.ToZero);
 
+                //when use post, it assume we will save the data somewhere. As its an example, 
+                //we did'nt
+
                 return Ok(new CalcInterest(finalValue));
             }
 
