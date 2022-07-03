@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonolithicSampleRestApi.Domain.Helpers
+namespace MonolithicSampleRestApi.Models.Helpers
 {
     public class UsefullHelpers
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 
-namespace MonolithicSampleRestApi.Domain.Models.ApiModels
+namespace MonolithicSampleRestApi.Models.Models.ApiModels
 {
     public class ResponseApiModel<T>
     {

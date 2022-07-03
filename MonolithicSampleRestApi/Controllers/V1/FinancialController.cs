@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MonolithicSampleRestApi.Domain.Extensions;
-using MonolithicSampleRestApi.Domain.Models.ApiModels;
+using MonolithicSampleRestApi.Models.Extensions;
+using MonolithicSampleRestApi.Models.Models.ApiModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;

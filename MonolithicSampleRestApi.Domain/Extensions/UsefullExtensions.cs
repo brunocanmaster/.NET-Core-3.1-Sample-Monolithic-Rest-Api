@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonolithicSampleRestApi.Domain.Extensions
+namespace MonolithicSampleRestApi.Models.Extensions
 {
     public static class UsefullExtensions
     {

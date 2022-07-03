@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithicSampleRestApi", "MonolithicSampleRestApi\MonolithicSampleRestApi.csproj", "{76398B23-5BB5-4741-8639-E55D78856F00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithicSampleRestApi", "MonolithicSampleRestApi\MonolithicSampleRestApi.csproj", "{76398B23-5BB5-4741-8639-E55D78856F00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithicSampleRestApi.Domain", "MonolithicSampleRestApi.Domain\MonolithicSampleRestApi.Domain.csproj", "{22EDB7DE-FD3E-4DD7-83ED-E60520C513AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithicSampleRestApi.Models", "MonolithicSampleRestApi.Domain\MonolithicSampleRestApi.Models.csproj", "{22EDB7DE-FD3E-4DD7-83ED-E60520C513AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonolithicSampleRestApi.Sdk", "MonolithicSampleRestApi.Sdk\MonolithicSampleRestApi.Sdk.csproj", "{E96D0466-FF51-44CE-9607-808BACF947D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonolithicSampleRestApi.Sdk", "MonolithicSampleRestApi.Sdk\MonolithicSampleRestApi.Sdk.csproj", "{E96D0466-FF51-44CE-9607-808BACF947D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

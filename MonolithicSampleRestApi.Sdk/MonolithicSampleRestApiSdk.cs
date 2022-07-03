@@ -1,4 +1,4 @@
-﻿using MonolithicSampleRestApi.Domain.Models.ApiModels;
+﻿using MonolithicSampleRestApi.Models.Models.ApiModels;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;

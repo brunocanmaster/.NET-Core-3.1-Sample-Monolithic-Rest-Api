@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MonolithicSampleRestApi.Domain.Models.ApiModels
+namespace MonolithicSampleRestApi.Models.Models.ApiModels
 {
     public class RequestCalcInterest
     {
