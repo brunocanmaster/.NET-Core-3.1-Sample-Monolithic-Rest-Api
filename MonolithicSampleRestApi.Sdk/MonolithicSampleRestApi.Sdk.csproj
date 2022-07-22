@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MonolithicSampleRestApi.Domain\MonolithicSampleRestApi.Models.csproj" />
+    <ProjectReference Include="..\MonolithicSampleRestApi.Models\MonolithicSampleRestApi.Models.csproj" />
   </ItemGroup>
 
 </Project>

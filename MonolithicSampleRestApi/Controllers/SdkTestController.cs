@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MonolithicSampleRestApi.Models.Models.ApiModels;
 using MonolithicSampleRestApi.Sdk;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ namespace MonolithicSampleRestApi.Controllers
 
                 var interestRate = await sdk.GetInterestRate();
 
-                var interestCalc = await sdk.PostCalcInterest(new Domain.Models.ApiModels.RequestCalcInterest(100, 5));
+                var interestCalc = await sdk.PostCalcInterest(new RequestCalcInterest(100, 5));
 
                 var githubVirtualPath = await sdk.GetGitHubAppPath();
 
