@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "/financial/v1/calcInterest",
+			"name": "/financial/v1/interestrate",
 			"request": {
 				"auth": {
 					"type": "apikey",
@@ -46,7 +46,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:44350/financial/v1/calcInterest",
+					"raw": "https://localhost:44350/financial/v1/interestrate",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -55,14 +55,14 @@
 					"path": [
 						"financial",
 						"v1",
-						"calcInterest"
+						"interestrate"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "/financial/v1/interestRate",
+			"name": "/financial/v1/interestrate",
 			"request": {
 				"auth": {
 					"type": "apikey",
@@ -87,7 +87,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://localhost:44350/financial/v1/interestRate",
+					"raw": "https://localhost:44350/financial/v1/interestrate",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -96,7 +96,7 @@
 					"path": [
 						"financial",
 						"v1",
-						"interestRate"
+						"interestrate"
 					]
 				}
 			},

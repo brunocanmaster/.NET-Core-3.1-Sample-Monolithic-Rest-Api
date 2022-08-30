@@ -11,7 +11,7 @@ namespace MonolithicSampleRestApi.Controllers.V1
     public class GitHubController : ApiBaseController
     {
         [HttpGet]
-        public async Task<ActionResult<string>> GetGitHubAppPath()
+        public async Task<ActionResult<string>> Get()
         {
             return Ok("https://github.com/brunocanmaster/MonolithicSampleRestApi");
         }

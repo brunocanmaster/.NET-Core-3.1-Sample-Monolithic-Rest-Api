@@ -10,17 +10,17 @@ namespace MonolithicSampleRestApi.Controllers.V1
     public class FinancialController : ApiBaseController
     {
         [HttpGet]
-        [Route("/financial/v1/interestRate")]
-        public async Task<decimal> GetInterestRate()
+        [Route("/financial/v1/interestrate")]
+        public async Task<decimal> Get()
         {
             return 0.01m;
         }
 
         [HttpPost]
-        [Route("/financial/v1/calcInterest")]
-        public async Task<ActionResult<CalcInterest>> PostCalcInterest(RequestCalcInterest request)
+        [Route("/financial/v1/interestrate")]
+        public async Task<ActionResult<CalcInterest>> Post(RequestCalcInterest request)
         {
-            decimal interestRate = await GetInterestRate();
+            decimal interestRate = await Get();
 
             if (request.InitialValue <= 0)
                 ModelState.AddModelError("InitialValue", "Deve ser maior que 0");
@@ -36,7 +36,7 @@ namespace MonolithicSampleRestApi.Controllers.V1
                 double r = dInitialValue * dInterestRate;
                 decimal finalValue = decimal.Round(r.ToDecimal(), 2, MidpointRounding.ToZero);
 
-                //when use post, it assume we will save the data somewhere. As its an example, 
+                //when using post, we assume we would save the data somewhere. As its an example, 
                 //we did'nt
 
                 return Ok(new CalcInterest(finalValue));
